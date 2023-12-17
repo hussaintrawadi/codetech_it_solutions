@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECF4D6;
+    color: #265073;
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    background-color: #ECF4D6;
+    padding: 78px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #265073;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact form input[type="text"], #contact form input[type="email"], #contact form textarea{
+    width: 50%;
+    height: 70px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #2D9596;
+    color: #fff;
+}
+#contact form input[type="text"]::placeholder, 
+#contact form input[type="email"]::placeholder, 
+#contact form textarea::placeholder {
+    color: #f2f2f2; /* Light white color */
+}
+#contact form button {
+    width: 51.5%;
+    height: 60px;
+    padding: 10px;
+    border: none;
+    background-color: #265073;
+    color: #ECF4D6;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #2D9596;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    height: 55px;
+}
+
+.nav-img {
+    width: 10%;
+    height: auto;
+    margin-right: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #9AD0C2;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #265073;
+    color: #fff;
+    padding: 20px;
+    text-align: right;
+}
+
+nav {
+    background-color: #2D9596;
+    color: #fff;
+    padding: 8px;
+    text-align: right;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-left: 20px;
+    padding-right: 50px;
+    font-size: 30px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+    font-weight:300;
+    padding: 5%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #265073;
+    background-color: #9AD0C2;
+    height: 170px; /* Adjust as needed */
+    line-height: 0.35; /* Adjust as needed */
+}
